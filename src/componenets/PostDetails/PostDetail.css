@@ -1,0 +1,31 @@
+#card{
+    width: 70%;
+    height: 30%;
+    border: 1px solid teal;
+    margin: 20px;
+    padding: 10px;
+}
+p{
+    font-size: 120%;
+    color: darkslategray;
+}
+.postTitle{
+    font-weight: 600;
+    color : teal;
+}
+.btn{
+    width: 18%;
+    padding-left: 13px;
+    padding-bottom: 10px;
+}
+.userInfo{
+    font-weight: 700;
+    font-size: 130%;
+}
+.btn2{
+    background-color: chocolate;
+    padding: 8px 15px 8px 15px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
