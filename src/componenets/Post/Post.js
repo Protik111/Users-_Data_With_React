@@ -15,7 +15,7 @@ const Post = () => {
     return (
         <div>
            {
-               posts.map(post => <Postdetails post ={post}></Postdetails>)
+               posts.map(post => <Postdetails key={post.id} post ={post}></Postdetails>)
            }
         </div>
     );

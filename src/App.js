@@ -7,6 +7,7 @@ import {
   Route
 } from "react-router-dom";
 import Postdetailmore from './componenets/Postdetailmore/Postdetailmore';
+import NoFound from './componenets/NoFound/NoFound';
 
 
 
@@ -24,8 +25,12 @@ function App() {
          </Route>
          <Route path = "/post/:postId">
            <Postdetailmore></Postdetailmore>
-
          </Route>
+         <Route path="*">
+           <NoFound></NoFound>
+         </Route>
+         <Route path="/post"></Route>
+         <NoFound></NoFound>
        </Switch>
      </Router>
 

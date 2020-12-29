@@ -1,0 +1,25 @@
+.post-container{
+    display: flex;
+    border: 1px solid teal;
+    background-color: rgba(240, 128, 128, 0.3);
+}
+.post-body{
+    width: 60%;
+    padding: 20px;
+    padding-left: 30px;
+}
+img{
+    margin-top: 50px;
+    width: 190px;
+    height: 190px;
+    border: 1px solid teal;
+    border-radius: 20px;
+}
+.userId{
+    font-weight: 600;
+    columns: teal;
+}
+.userName{
+    font-weight: 700;
+    columns: teal;
+}
